@@ -118,5 +118,5 @@ class TicTacToe
       puts "Cat's Game!"
     end
   end
-  
+
 end
