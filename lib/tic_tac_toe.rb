@@ -113,7 +113,7 @@ class TicTacToe
       turn
     end
     if winner != nil
-      puts "Congratulations #{winner(board)}!"
+      puts "Congratulations #{winner}!"
     else
       puts "Cat's Game!"
     end
