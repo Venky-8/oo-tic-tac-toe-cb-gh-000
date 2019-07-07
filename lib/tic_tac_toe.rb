@@ -1,9 +1,9 @@
 class TicTacToe
-  
+
   def initialize
     @board = Array.new(9, " ")
   end
-  
+
     # Helper Method
   def position_taken?(board, index)
     !(board[index].nil? || board[index] == " ")
